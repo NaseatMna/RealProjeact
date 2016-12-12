@@ -69,8 +69,10 @@ a:hover {
     text-align: center;
 }
 .navbar {
-    /* width: 100%; */
-    border-radius:0px;
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 3px;
+  border: 1px solid transparent;
 }
 .thumbnail:hover {
     background: rgba(172, 172, 172, 0.2);
@@ -126,26 +128,6 @@ ul.nav.navbar-nav.navbar-right a:hover {
     /*!* display: inline-table; *!*/
     /*!* float: left; *!*/
 /*}*/
-/* Responsive Resolutions Screens */
-
-@media (max-width: 768px){
-    .navbar-nav {
-        position: relative;
-        display: -webkit-box;
-        color:white;
-    }
-    nav.navbar.navbar-default {
-        margin-top: 54px;
-    }
-    .navbar-default .navbar-nav>li>a{
-        color:#292929;
-    }
-    .form-group {
-        float: left;
-    }
-
-
-}
 
 
 

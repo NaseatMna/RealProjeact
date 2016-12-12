@@ -90,7 +90,7 @@ export default class Diamon extends React.Component{
                     <Col xs={12} sm={6} md={3} lg={3}>
                         <a href="#" >
                             <div style={styles.price}><h6 style={styles.h6}>Discount: 15%</h6> </div>
-                        <Thumbnail src="/assets/images/niagara.jpg" alt="242x200">
+                        <Thumbnail src="/images/niagara.jpg" alt="242x200">
                             <div style={styles.box}>
                                 <h1 style={styles.h1}>PhnomPenh Hotel </h1>
                             <p>Niagara Falls Hotel with Family Fun Package
@@ -105,7 +105,7 @@ export default class Diamon extends React.Component{
                     <Col xs={12} sm={6} md={3} lg={3}>
                         <a href="#" className="box">
                             <div style={styles.price}><h6 style={styles.h6}>Discount: 10%</h6> </div>
-                        <Thumbnail src="/assets/images/taza.jpg" alt="242x200">
+                        <Thumbnail src="/images/taza.jpg" alt="242x200">
                             <div style={styles.box}>
                                 <h1 style={styles.h1}>Sea Foods</h1>
                             <p>Claim this deal by linking to your eligible Visa card
@@ -118,7 +118,7 @@ export default class Diamon extends React.Component{
                     <Col xs={12} sm={6} md={3} lg={3}>
                         <a href="#" className="box">
                             <div style={styles.price}><h6 style={styles.h6}>Discount: 20%</h6> </div>
-                        <Thumbnail src="/assets/images/mixteco.jpg" alt="242x200">
+                        <Thumbnail src="/images/mixteco.jpg" alt="242x200">
                             <div style={styles.box}>
                              <h1 style={styles.h1}>Khmer Foods</h1>
                             <p>Claim this deal by linking to your eligible Visa card
@@ -131,7 +131,7 @@ export default class Diamon extends React.Component{
                     <Col  xs={12} sm={6} md={3} lg={3}>
                         <a href="#" className="box">
                             <div style={styles.price}><h6 style={styles.h6}>Discount:50%</h6> </div>
-                        <Thumbnail  src="/assets/images/wicosin.jpg" alt="242x200">
+                        <Thumbnail  src="/images/wicosin.jpg" alt="242x200">
                             <div style={styles.box}>
                                 <h1 style={styles.h1}>Khmer Resort</h1>
                             <p>No matter the season, guests can enjoy the outdoors at the 4-star Grand Geneva Resort
@@ -148,7 +148,7 @@ export default class Diamon extends React.Component{
                         <Col xs={12} sm={6} md={3} lg={3}>
                             <a href="#" >
                                 <div style={styles.price}><h6 style={styles.h6}>Discount: 15%</h6> </div>
-                                <Thumbnail src="/assets/images/niagara.jpg" alt="242x200">
+                                <Thumbnail src="/images/niagara.jpg" alt="242x200">
                                     <div style={styles.box}>
                                         <h1 style={styles.h1}>PhnomPenh Hotel </h1>
                                         <p>Niagara Falls Hotel with Family Fun Package
@@ -162,7 +162,7 @@ export default class Diamon extends React.Component{
                         <Col xs={12} sm={6} md={3} lg={3}>
                             <a href="#" className="box">
                                 <div style={styles.price}><h6 style={styles.h6}>Discount: 10%</h6> </div>
-                                <Thumbnail src="/assets/images/taza.jpg" alt="242x200">
+                                <Thumbnail src="/images/taza.jpg" alt="242x200">
                                     <div style={styles.box}>
                                         <h1 style={styles.h1}>Sea Foods</h1>
                                         <p>Claim this deal by linking to your eligible Visa card
@@ -175,7 +175,7 @@ export default class Diamon extends React.Component{
                         <Col xs={12} sm={6} md={3} lg={3}>
                             <a href="#" className="box">
                                 <div style={styles.price}><h6 style={styles.h6}>Discount: 20%</h6> </div>
-                                <Thumbnail src="/assets/images/mixteco.jpg" alt="242x200">
+                                <Thumbnail src="/images/mixteco.jpg" alt="242x200">
                                     <div style={styles.box}>
                                         <h1 style={styles.h1}>Khmer Foods</h1>
                                         <p>Claim this deal by linking to your eligible Visa card
@@ -188,7 +188,7 @@ export default class Diamon extends React.Component{
                         <Col  xs={12} sm={6} md={3} lg={3}>
                             <a href="#" className="box">
                                 <div style={styles.price}><h6 style={styles.h6}>Discount:50%</h6> </div>
-                                <Thumbnail  src="/assets/images/wicosin.jpg" alt="242x200">
+                                <Thumbnail  src="/images/wicosin.jpg" alt="242x200">
                                     <div style={styles.box}>
                                         <h1 style={styles.h1}>Khmer Resort</h1>
                                         <p>No matter the season, guests can enjoy the outdoors at the 4-star Grand Geneva Resort
@@ -204,7 +204,7 @@ export default class Diamon extends React.Component{
                         <Col xs={12} sm={6} md={3} lg={3}>
                             <a href="#" >
                                 <div style={styles.price}><h6 style={styles.h6}>Discount: 15%</h6> </div>
-                                <Thumbnail src="/assets/images/niagara.jpg" alt="242x200">
+                                <Thumbnail src="/images/niagara.jpg" alt="242x200">
                                     <div style={styles.box}>
                                         <h1 style={styles.h1}>PhnomPenh Hotel </h1>
                                         <p>Niagara Falls Hotel with Family Fun Package
@@ -218,7 +218,7 @@ export default class Diamon extends React.Component{
                         <Col xs={12} sm={6} md={3} lg={3}>
                             <a href="#" className="box">
                                 <div style={styles.price}><h6 style={styles.h6}>Discount: 10%</h6> </div>
-                                <Thumbnail src="/assets/images/taza.jpg" alt="242x200">
+                                <Thumbnail src="/images/taza.jpg" alt="242x200">
                                     <div style={styles.box}>
                                         <h1 style={styles.h1}>Sea Foods</h1>
                                         <p>Claim this deal by linking to your eligible Visa card
@@ -231,7 +231,7 @@ export default class Diamon extends React.Component{
                         <Col xs={12} sm={6} md={3} lg={3}>
                             <a href="#" className="box">
                                 <div style={styles.price}><h6 style={styles.h6}>Discount: 20%</h6> </div>
-                                <Thumbnail src="/assets/images/mixteco.jpg" alt="242x200">
+                                <Thumbnail src="/images/mixteco.jpg" alt="242x200">
                                     <div style={styles.box}>
                                         <h1 style={styles.h1}>Khmer Foods</h1>
                                         <p>Claim this deal by linking to your eligible Visa card
@@ -244,7 +244,7 @@ export default class Diamon extends React.Component{
                         <Col  xs={12} sm={6} md={3} lg={3}>
                             <a href="#" className="box">
                                 <div style={styles.price}><h6 style={styles.h6}>Discount:50%</h6> </div>
-                                <Thumbnail  src="/assets/images/wicosin.jpg" alt="242x200">
+                                <Thumbnail  src="/images/wicosin.jpg" alt="242x200">
                                     <div style={styles.box}>
                                         <h1 style={styles.h1}>Khmer Resort</h1>
                                         <p>No matter the season, guests can enjoy the outdoors at the 4-star Grand Geneva Resort

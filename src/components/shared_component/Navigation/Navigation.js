@@ -50,8 +50,7 @@ export default class Navigation extends React.Component{
     render(){
 
         return(
-            <div>
-                {/* Start Section MenuBar onClick={this.handleToggleClick} */}
+
                 <div>
                     <Navbar inverse fluid fixedTop >
                         <Grid>
@@ -78,11 +77,9 @@ export default class Navigation extends React.Component{
                             </Navbar.Collapse>
                         </Grid>
                     </Navbar>
-                    <Navbar className="hidden-sm">
 
-                    </Navbar>
-                </div>  {/* End Section MenuBar */}
-            </div>
+                </div>
+
 
         );
     }

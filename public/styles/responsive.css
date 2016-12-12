@@ -1,0 +1,26 @@
+/* Responsive Resolutions Screens */
+
+@media (max-width: 768px){
+  .navbar-nav {
+    position: relative;
+    display: -webkit-box;
+    color:white;
+  }
+  nav.navbar.navbar-default {
+    margin-top: 0px;
+  }
+  .navbar-default .navbar-nav>li>a{
+    color:#292929;
+  }
+  .form-group {
+    float: left;
+  }
+  .navbar-brand {
+    float: right;
+    height: 50px;
+    padding: 14px 7px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+}
