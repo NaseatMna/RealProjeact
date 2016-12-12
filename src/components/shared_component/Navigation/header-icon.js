@@ -60,7 +60,7 @@ export  default class IconHeader extends React.Component{
                     <a href="#">
                         <span className="glyphicon glyphicon-remove" onTouchTap={this.handleToggle}></span>
                     </a>
-                    <img className="logo" src="/assets/images/logo.png"/>
+                    <img className="logo" src="/images/logo.png"/>
                     <Accordion>
                         <Panel header=">&nbsp;Product" eventKey="1" >
                             <Accordion>

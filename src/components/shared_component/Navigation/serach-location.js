@@ -10,7 +10,7 @@ export default class SearchLocation extends React.Component{
         return(
             <div>
                 <InputGroup>
-                  <InputGroup.Addon><img src="/assets/images/location.png"/> </InputGroup.Addon>
+                  <InputGroup.Addon><img src="/images/location.png"/> </InputGroup.Addon>
                   <FormControl type="text" placeholder="Locations"/>
                 </InputGroup>
             </div>
