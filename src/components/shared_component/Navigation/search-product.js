@@ -3,22 +3,33 @@
  */
 
 import React from 'react';
+import AutoComplete from 'material-ui/AutoComplete';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {FormControl,button} from 'react-bootstrap';
+const product = [
+  'Apple',
+  'Orange',
+  'Iphone',
+  'Cocacola',
+  'Pepsi',
+  'Spa',
+  'Test',
+  'Car',
+];
 export default class SearchProduct extends React.Component{
   constructor(props) {
     super(props);
   };
-
-  updateState(e) {
-    this.setState({data: e.target.value});
-  }
-
   render(){
     return(
+      <MuiThemeProvider>
             <div>
-              <FormControl type="text" placeholder="Search" />
-
+              <AutoComplete className="autocomplete"
+                filter={AutoComplete.caseInsensitiveFilter}
+                dataSource={product}
+              />
             </div>
+        </MuiThemeProvider>
         );
     }
 

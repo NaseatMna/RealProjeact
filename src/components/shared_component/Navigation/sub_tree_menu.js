@@ -46,7 +46,5 @@ function mapDispatchToProps(dispatch){
       type:'SERVICE_CATEGORY_LIST'
     })
   });
-
 }
-
 export default connect(mapStateToProps,mapDispatchToProps)(SubTreeMenu);

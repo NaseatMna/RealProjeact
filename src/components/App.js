@@ -14,6 +14,10 @@ import Company from './shared_component/Company.jsx';
     return (
         <div>
           <Navigation/>
+          <MaiMenu/>
+          <DiamonProduct/>
+          <Company/>
+          <Footer/>
           {/*
            <MaiMenu/>
            <DiamonProduct/>
