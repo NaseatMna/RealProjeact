@@ -7,6 +7,7 @@ import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import {Navbar} from'react-bootstrap';
 import RaisedButton from 'material-ui/RaisedButton';
+import TreeMenu from './tree_menu';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { Accordion,Panel,Row,Col,Grid,Nav,NavItem,NavDropdown,FormGroup,FormControl,Button,ControlLabel,Badge} from 'react-bootstrap';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -61,20 +62,7 @@ export  default class IconHeader extends React.Component{
                         <span className="glyphicon glyphicon-remove" onTouchTap={this.handleToggle}></span>
                     </a>
                     <img className="logo" src="/images/logo.png"/>
-                    <Accordion>
-                        <Panel header=">&nbsp;Product" eventKey="1" >
-                            <Accordion>
-                                <Panel header="Car" eventKey="1">
-
-                                </Panel>
-                            </Accordion>
-                        </Panel>
-                    </Accordion>
-                    <Accordion>
-                        <Panel header=">&nbsp;Service" eventKey="1">
-
-                        </Panel>
-                    </Accordion>
+                    <TreeMenu/>
                     <MenuItem>SignIn</MenuItem>
                     <MenuItem>SignUp</MenuItem>
 

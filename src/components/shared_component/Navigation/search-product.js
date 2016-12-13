@@ -17,6 +17,7 @@ export default class SearchProduct extends React.Component{
     return(
             <div>
               <FormControl type="text" placeholder="Search" />
+
             </div>
         );
     }

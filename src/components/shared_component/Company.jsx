@@ -1,6 +1,6 @@
 import React from 'react';
 import {ListGroup,ListGroupItem,Col,Row,Grid} from 'react-bootstrap';
-import Scroll from 'react-scroll';
+//import Scroll from 'react-scroll';
 const styles={
     content:{
         //backgroundImage:'url(/assets/images/4.jpg)',
@@ -20,11 +20,11 @@ const styles={
 }
 
 }
-var Link       = Scroll.Link;
-var Element    = Scroll.Element;
-var Events     = Scroll.Events;
-var scroll     = Scroll.animateScroll;
-var scrollSpy  = Scroll.scrollSpy;
+//var Link       = Scroll.Link;
+//var Element    = Scroll.Element;
+//var Events     = Scroll.Events;
+//var scroll     = Scroll.animateScroll;
+//var scrollSpy  = Scroll.scrollSpy;
 export default class Company extends React.Component{
     scrollToTop() {
         scroll.scrollToTop();
@@ -49,12 +49,12 @@ export default class Company extends React.Component{
                         <ListGroup style={styles.listgroup}>
                             <h4 style={styles.h4}>Social</h4>
                             <Row>
-                                <Col sm={12} md={6}><ListGroupItem href='#'><img style={styles.img} src="/assets/images/facebook.png"/></ListGroupItem></Col>
-                                <Col sm={12} md={6}><ListGroupItem href='#'><img style={styles.img} src="/assets/images/twitter.png"/></ListGroupItem></Col>
+                                <Col sm={12} md={6}><ListGroupItem href='#'><img style={styles.img} src="/images/facebook.png"/></ListGroupItem></Col>
+                                <Col sm={12} md={6}><ListGroupItem href='#'><img style={styles.img} src="/images/twitter.png"/></ListGroupItem></Col>
                             </Row>
                             <Row>
-                                <Col sm={12} md={6}> <ListGroupItem href='#'><img style={styles.img} src="/assets/images/ios.png"/></ListGroupItem></Col>
-                                <Col sm={12} md={6}><ListGroupItem href='#'><img style={styles.img} src="/assets/images/android.png"/></ListGroupItem></Col>
+                                <Col sm={12} md={6}> <ListGroupItem href='#'><img style={styles.img} src="/images/ios.png"/></ListGroupItem></Col>
+                                <Col sm={12} md={6}><ListGroupItem href='#'><img style={styles.img} src="/images/android.png"/></ListGroupItem></Col>
                             </Row>
 
 

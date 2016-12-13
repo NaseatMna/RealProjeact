@@ -5,6 +5,8 @@ import Menu from './common/Menu';
 import Navigation from './shared_component/Navigation/Navigation';
 import MaiMenu from './shared_component/Navigation/Main_menu';
 import DiamonProduct from './shared_component/Diamond_component.jsx';
+import Footer from './shared_component/Footer/Footer.jsx';
+import Company from './shared_component/Company.jsx';
 // app component
  class Main extends React.Component {
 
@@ -12,8 +14,13 @@ import DiamonProduct from './shared_component/Diamond_component.jsx';
     return (
         <div>
           <Navigation/>
-          <MaiMenu/>
-          <DiamonProduct/>
+          {/*
+           <MaiMenu/>
+           <DiamonProduct/>
+           <Company/>
+           <Footer/>
+          */}
+
         </div>
     );
   }
