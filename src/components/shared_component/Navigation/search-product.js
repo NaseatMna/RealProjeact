@@ -27,6 +27,7 @@ export default class SearchProduct extends React.Component{
               <AutoComplete className="autocomplete"
                 filter={AutoComplete.caseInsensitiveFilter}
                 dataSource={product}
+                hintText="search products and services"
               />
             </div>
         </MuiThemeProvider>

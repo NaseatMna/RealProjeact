@@ -16,6 +16,11 @@ const location = [
   'Priveng',
   'Sdeng Treng',
 ];
+const styles = {
+  hinttext:{
+    color:'white'
+  }
+};
 export default class SearchLocation extends React.Component{
 
     render(){
@@ -27,7 +32,10 @@ export default class SearchLocation extends React.Component{
                       <AutoComplete className="autocomplete"
                         filter={AutoComplete.caseInsensitiveFilter}
                         dataSource={location}
+                        hintText="search locations"
+                        textFieldStyle={styles.hinttext}
                       />
+
                 </InputGroup>
             </div>
     </MuiThemeProvider>

@@ -23,7 +23,7 @@
     return new Promise(resolve => {
       setTimeout(()=> {
         // build sum dummy user list
-        let users = [
+        let product = [
           {"id":1,"product":"Apple",
             "subcategory":[{"name":"service1"}, {"name":"service2"}]},
           {"id":2,"product":"Sumsung","job":"php"},
@@ -36,7 +36,7 @@
           {"id":9,"product":"Air","jobe":"job"}
 
         ];
-        resolve(users);
+        resolve(product);
       },1000);
 
     });
@@ -45,7 +45,7 @@ export const getAllServiceCategory=()=>{
   return new Promise(resolve => {
     setTimeout(()=> {
       // build sum dummy user list
-      let users = [
+      let service = [
         {"id":2,"ServiceName":"Service1"},
         {"id":3,"ServiceName":"Service3"},
         {"id":4,"ServiceName":"Service6"},
@@ -56,7 +56,7 @@ export const getAllServiceCategory=()=>{
         {"id":9,"ServiceName":"Service9"}
 
       ];
-      resolve(users);
+      resolve(service);
     },1000);
 
   });
